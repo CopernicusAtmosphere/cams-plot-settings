@@ -1,7 +1,14 @@
-aqi:
+web:
   colours:  ["#C7EAF4", "#9DD4E2", "#FEF5AA", "#F3C848", "#D8620B", "#862716"]
   contour_levels:
     ozone: [0, 50, 100, 130, 240, 380, 1000]
     particulate_matter_2.5um: [0, 10, 20, 25, 50, 75, 1000]
     particulate_matter_10um: [0, 20, 40, 50, 100, 150, 1200]
     nitrogen_dioxide: [0, 40, 90, 120, 230, 340, 1000]
+aqi:
+  colours:  ["#C7EAF4", "#9DD4E2", "#FEF5AA", "#F3C848", "#D8620B", "#862716"]
+  contour_levels:
+    ozone: [0, 50, 100, 130, 240, 380, 1000]
+    particulate_matter_2.5um: [0, 15, 30, 40, 90, 1000]
+    particulate_matter_10um: [0, 35, 60, 90, 180, 1000]
+    nitrogen_dioxide: [0, 40, 100, 200, 400, 1000]
